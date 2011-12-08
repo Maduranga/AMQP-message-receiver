@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xmlRootClass>
+    <ServerIP>localhost</ServerIP>
+    <Filename>system5.xml</Filename>
+    <Exchange Incoming_Bindings_count="0" Outgoing_Bindings_count="0" Name="Exchange_1"/>
+    <Exchange Incoming_Bindings_count="0" Outgoing_Bindings_count="0" Name="Exchange_2"/>
+    <Exchange Incoming_Bindings_count="1" Outgoing_Bindings_count="0" Name="TestExchange"/>
+    <Queue Incoming_Bindings_count="0" Outgoing_Bindings_count="0" Name="Queue_1"/>
+    <Queue Incoming_Bindings_count="0" Outgoing_Bindings_count="0" Name="Queue_2"/>
+    <Queue Incoming_Bindings_count="0" Outgoing_Bindings_count="0" Name="Queue_3"/>
+    <Queue Incoming_Bindings_count="0" Outgoing_Bindings_count="1" Name="TestQueue">
+        <Bindings_Exchanges>TestExchange</Bindings_Exchanges>
+        <Bindings_Routing_keys>TestQueue</Bindings_Routing_keys>
+    </Queue>
+</xmlRootClass>
